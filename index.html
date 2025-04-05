@@ -1,1 +1,333 @@
 
+
+
+<html>
+<head>
+    <title>Home Page</title>
+  
+    <link rel="stylesheet" href="./fontawesome-free-6.7.2-web/fontawesome-free-6.7.2-web/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+      }
+      .mood-section {
+          text-align: center;
+          margin-top: 50px;
+      }
+      .container {
+          display: flex;
+          justify-content: center; /* Centers items horizontally */
+          align-items: center;
+          flex-wrap: wrap; /* Prevents overflow */
+          gap: 35px; /* Space between circles */
+          margin-top: 20px;
+      }
+      .circle {
+          width: 135px;
+          height: 135px;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 14px;
+          font-weight: bold;
+          color: white;
+          text-align: center;
+      }
+      .passionate { background-color: #E74C3C; }
+      .melancholic { background-color: #27AE60; }
+      .romantic { background-color: #fbaac2;  }
+      .lighthearted { background-color: #F1C40F; }
+      .refreshing { background-color: #3498DB; }
+      .mysterious { background-color: #8E44AD; }
+      .adventurous { background-color: #E67E22; }
+  </style>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #fff;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 24px;
+  }
+
+  /* === Featured Books Section === */
+  .books-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .book-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 200px;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  .book-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+  }
+
+  .book-info {
+    padding: 10px;
+  }
+
+  .book-title {
+    font-weight: bold;
+  }
+
+  .book-author {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .rating {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  .star {
+    margin-right: 5px;
+  }
+
+  .footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #f4f8fc;
+  padding: 30px;
+  margin: 0%;
+}
+
+.footer-section {
+  margin: 20px;
+  min-width: 150px;
+}
+
+.footer-section a {
+  display: inline-block;
+  margin: 4px 0;
+  text-decoration: none;
+ color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer-section h4 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.passionate {
+  color: #e74c3c;
+}
+
+.melancholic {
+  color: #27ae60;
+}
+
+.romantic {
+  color: #f5b7b1;
+}
+
+.lighthearted {
+  color: #f1c40f;
+}
+
+.social-icons a {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #5f6c7b;
+}
+
+
+ 
+</style>
+
+</head>
+<body>
+    <h1 style="padding:15px;margin:20px;font-size: x-large;">Book Pallete</h1>
+   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js"></script>
+      
+      
+      <div style="background-color: rgb(172, 225, 253);margin: 0px;padding: 40px;">
+        <h1 style="color: rgb(0, 0, 0);margin: 40px;text-align: center;justify-content: center;font-size: 60px ;font-family: 'Times New Roman', Times, serif;">
+            Find Your Perfect Book
+            <br>
+            Through Colors
+        </h1>
+      <p style="display: flex;text-align: center;justify-content: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: #6e6e73;">
+     Discover books that match your mood with our color-based recommendation <br>
+        system. Simply choose a color that resonates with how you're feeling, and we'll
+        <br>
+         suggest the perfect reads.
+      
+        
+      </p>
+      <div style="display: flex;justify-content: center;justify-items: center;">
+     <button style="display: flex;text-align: center;justify-content: center;margin: 20px;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: #6e6e73;background-color: #000000;border-radius: 5px;padding: 10px 20px;border: none;cursor: pointer;justify-items: center;">
+        <a href="color.html" style="text-decoration: none;color: rgb(255, 255, 255);">Get Started</a>
+      
+    </div></div>
+<div>
+    <h1 style="color: rgb(1, 1, 1);margin: 40px;text-align: center;justify-content: center;font-size: 40px ;font-family: 'Times New Roman', Times, serif;">
+        Choose Your Mood
+    </h1>
+  <p style="display: flex;text-align: center;justify-content: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: #6e6e73;">
+    Click on a color that matches your current mood, and we'll recommend books that perfectly
+    <br> complement how you're feeling.
+  </p>
+
+
+
+</div>
+
+
+
+<body>
+
+    <div class="container">
+        <div class="circle passionate">Passionate</div>
+        <div class="circle melancholic">Melancholic</div>
+        <div class="circle romantic">Romantic</div>
+        <div class="circle lighthearted">Lighthearted</div>
+        <div class="circle refreshing">Refreshing</div>
+        <div class="circle mysterious">Mysterious</div>
+        <div class="circle adventurous">Adventurous</div>
+    </div>
+ 
+</body>
+
+<h2 style="font-family: 'Times New Roman', Times, serif;">Featured Books</h2>
+<div class="books-container">
+  <div class="book-card">
+    <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66" alt="The Night Circus cover" />
+    <div class="book-info">
+      <div class="book-title">The Night Circus</div>
+      <div class="book-author">Erin Morgenstern</div>
+      <div class="rating"><span class="star">⭐</span>4.4</div>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <img src="https://images.unsplash.com/photo-1564501049412-61c2a3083791" alt="Under the Tuscan Sun cover" />
+    <div class="book-info">
+      <div class="book-title">Under the Tuscan Sun</div>
+      <div class="book-author">Frances Mayes</div>
+      <div class="rating"><span class="star">⭐</span>3.8</div>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <img src="https://images.unsplash.com/photo-1581091215367-59ab6f7d97d9" alt="The Song of Achilles cover" />
+    <div class="book-info">
+      <div class="book-title">The Song of Achilles</div>
+      <div class="book-author">Madeline Miller</div>
+      <div class="rating"><span class="star">⭐</span>4.7</div>
+    </div>
+  </div>
+
+  <div class="book-card">
+    <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794" alt="The Road cover" />
+    <div class="book-info">
+      <div class="book-title">The Road</div>
+      <div class="book-author">Cormac McCarthy</div>
+      <div class="rating"><span class="star">⭐</span>4.1</div>
+    </div>
+  </div>
+</div>
+
+</div>
+<br>
+<br>
+<br>      
+<br>
+<br>  
+<br>
+<br>  
+<footer class="footer-container" style="padding: 0%;margin: 0px;">
+  <div class="footer-section">
+    <h4 style="font-family: 'Times New Roman', Times, serif; padding-right: 0px;">
+      📖 <b>Mood Reads</b>
+    </h4>
+    <p>Find the perfect book for your mood with our color-based recommendations.</p>
+  </div>
+
+  <div class="footer-section" style="color: #000000;">
+    <h4>Navigation</h4>
+    <a href="#">Home</a><br>
+    <a href="#">About</a><br>
+    <a href="#">Browse Books</a>
+  </div>
+
+  <div class="footer-section" >
+    <h4>Moods</h4>
+    <a href="https://example.com/passionate" class="passionate">Passionate</a><br>
+    <a href="https://example.com/melancholic" class="melancholic">Melancholic</a><br>
+    <a href="https://example.com/romantic" class="romantic">Romantic</a><br>
+    <a href="https://example.com/lighthearted" class="lighthearted">Lighthearted</a>
+  </div>
+
+  
+    <div class="footer-section" style="display:inline-block;">
+      <h4>Connect</h4>
+  
+    <ul class="footer-section" style="display:flex; justify-content: center;">
+           
+            <li>  <j class="fa-solid fa-magnifying-glass"></j></li>
+            <br>
+            <li>  <j class="fa-regular fa-heart"></j></li>
+            
+        </ul>
+    </div>
+
+
+
+    </div>
+  </div>
+</footer>
+
+<!-- Footer Bottom -->
+<div style="text-align: center; padding: 20px; font-size: 14px; background-color: #f4f8fc; color: #5f6c7b;">
+  © 2025 Mood Reads. All rights reserved.
+</div>
+
+<!-- Font Awesome Icons (add this to your HTML <head> or before </body>) -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <style>
+        body{
+        margin: 0px;
+        padding:0px;
+        background-color:rgb(255, 255, 255) ;
+        }
+     </style>
+
+</body>
+</html
